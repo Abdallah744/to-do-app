@@ -6,40 +6,6 @@ import 'package:flutter/material.dart';
 
 import '../cubit/AppCubit.dart';
 
-// import '../../models/database/database_model.dart';
-// import 'constance.dart';
-
-// login or register button
-
-// Widget defaultButton({
-//   double width = double.infinity,
-//   Color background = Colors.blue,
-//   bool isUpperCase = true,
-//   double radius = 10.0,
-//   required Function() function,
-//   required String text,
-// }) =>
-//     Container(
-//       width: width,
-//       height: 40.0,
-//       decoration: BoxDecoration(
-//         borderRadius: BorderRadius.circular(radius),
-//         color: background,
-//       ),
-//       child: MaterialButton(
-//         onPressed: function,
-//         child: Text(
-//           text.toUpperCase(),
-//           style: TextStyle(
-//             color: Colors.white,
-//             fontSize: 20.0,
-//             fontWeight: FontWeight.bold,
-//           ),
-//         ),
-//       ),
-//     );
-// password FormFiled Box
-
 Widget defaultTextFormField({
   required TextEditingController controller,
   required TextInputType type,
